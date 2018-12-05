@@ -1,0 +1,6 @@
+Flask==1.0.2
+#google-cloud-storage>=1.13.0
+#webapp2
+#falcon==1.4.1
+#gunicorn==19.9.0
+#celery==4.2.0
