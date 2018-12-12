@@ -1,0 +1,31 @@
+{
+  "$id": "??",
+  "$schema": "??",
+  "title": "FillerDoc User Data",
+ "definitions": {
+		"names": {
+		"type": "object",
+			"properties": {
+				"firstName": { "type": "string" },
+				"lastName":  { "type": "string" },
+				"middleName":{ "type": "string" },
+				"FIO":		 { "type": "string"	}
+						  }
+				  }
+				},
+  "type": "object",
+  "properties": {
+	 "address": 		{ "type": "string" },
+	 "googleEmail": 	{ "type": "string" },
+	 "secondaryEmail": 	{ "type": "string" },
+		"children": {
+		  "type": "array",
+		  "items": { "$ref": "#/definitions/names" },
+				"age": 	{
+				"description": "Child's age in years which must be equal to or greater than zero",
+				"type": "integer",
+				"minimum": 0
+						}	
+					}
+				}
+}

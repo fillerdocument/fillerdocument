@@ -1,0 +1,20 @@
+{
+ "names": {
+  "firstName": "Петр",
+  "lastName": "Смирнов",
+  "middleName": "Николаевич",
+  "FIO": "Смирнов П.Н."
+	},
+	"address": "ул. Платонова 12 18",
+	"googleEmail": "FillerDoc_sample@gmail.com",
+	"secondaryEmail": "FillerDoc_smpl@tut.by",
+		"children": [ 
+		{
+		"firstName": "Аня",
+		"lastName": "Смирнова",
+		"middleName": "Петровна",
+		"FIO": "Смирнова А.П.",
+		"age": 11
+		}
+					]
+}
