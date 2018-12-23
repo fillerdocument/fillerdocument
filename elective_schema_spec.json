@@ -1,6 +1,6 @@
 {
   "definitions": {},
-  "$schema": "",
+  "$schema": "elective_schema",
   "$id": "https://github.com/fillerdocument/fillerdocument/elective_schema_spec.json",
   "type": "object",
   "title": "Elective schema",
