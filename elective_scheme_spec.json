@@ -1,0 +1,82 @@
+{
+  "definitions": {},
+  "$schema": "",
+  "$id": "https://github.com/fillerdocument/fillerdocument/elective_schema_spec.json",
+  "type": "object",
+  "title": "Elective schema",
+  "default": null,
+  "required": [
+    "elective_name",
+    "price_per_hour",
+    "hours",
+    "full_price"
+  ],
+  "properties": {
+    "elective_name": {
+      "$id": "#/properties/elective_name",
+      "type": "string",
+      "title": "Elective name",
+      "default": "",
+      "examples": [
+        "Кружок рукоделия"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "price_per_hour": {
+      "$id": "#/properties/price_per_hour",
+      "type": "string",
+      "title": "Price per hour",
+      "default": "",
+      "examples": [
+        "10.2"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "hours": {
+      "$id": "#/properties/hours",
+      "type": "integer",
+      "title": "Number of hours",
+      "default": "",
+      "examples": [
+        "9"
+      ]
+    },
+    "full_price": {
+      "$id": "#/properties/full_price",
+      "type": "string",
+      "title": "Full price",
+      "default": "",
+      "examples": [
+        "91.8"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
