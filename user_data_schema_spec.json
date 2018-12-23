@@ -1,6 +1,6 @@
 {
-  "$id": "??",
-  "$schema": "??",
+  "$id": "https://github.com/fillerdocument/fillerdocument/edit/master/user_data_schema_spec.json",
+  "$schema": "user_data_schema",
   "title": "FillerDoc User Data",
  "definitions": {
 		"names": {
